@@ -1,0 +1,23 @@
+{
+  "name": "aws-ses-mock-api",
+  "version": "1.0.0",
+  "description": "Mock AWS SES API for testing purposes",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "express-validator": "^7.0.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "vitest": "^0.34.6",
+    "supertest": "^6.3.3"
+  }
+}
